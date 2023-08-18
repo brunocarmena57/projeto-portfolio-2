@@ -9,15 +9,21 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hey there,
+          Marketing Brother's
         </SectionTitle>
         <SectionText>
-        I'm Vipul Jha, also known as lordarcadius. I'm an Android developer from Delhi, India with experience in ROMs, Kernels, & Scripts. Currently, I am working in Primebook as an Android Engineer. I'm passionate about contributing to open-source projects and helping the developer community on Facebook and Telegram.
+        Somos um grupo apaixonado de empreendedores que se uniram para compartilhar o nosso conhecimento, transformando em oportunidades reais.
+        </SectionText> 
+        <SectionText>
+        Nossa paixão por essa área nos guiou até aqui. A missão da nossa plataforma é clara: capacitar você, empreendedor, a desbloquear todo o potencial das suas vendas e transformar sua visão em resultados tangíveis.
+        </SectionText>
+        <SectionText>
+        Confira o Curso Grátis abaixo 👇
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
-          window.location.href = '/files/resume.pdf';
-        }}>My Resume</Button>
+          window.location.href = '/files/cursogratis.pdf';
+        }}>Curso Grátis</Button>
       </LeftSection>
     </Section>
   </>

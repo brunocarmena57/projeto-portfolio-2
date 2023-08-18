@@ -3,6 +3,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } fr
 import { Link } from '../../styles/GlobalComponents';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { FaTiktok } from 'react-icons/fa'
 
 const Footer = () => {
   const today = new Date();
@@ -12,32 +13,26 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://t.me/lordarcadius">Telegram</LinkItem>
+          <LinkItem href="https://wa.me/41997875005">WhatsApp</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:hey@vipuljha.com">
-            hey@vipuljha.com
+          <LinkItem href="mailto:marketingbrothers__@gmail.com">
+            marketingbrothers__@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Copyright &copy; {year} <Link href="https://www.vipuljha.com">  Vipul Jha</Link>. All rights reserved.</Slogan>
+          <Slogan>Copyright &copy; {year} <Link href="https://www.instagram.com/bruno.carmena57/">  Bruno Carmena</Link>. All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/lordarcadius">
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/lordarcadius">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://www.twitter.com/lordarcadius">
-            <AiFillTwitterCircle size="3rem" />
-          </SocialIcons>
+        <SocialIcons href="https://www.instagram.com/marketingbrothers__/">
+        <AiFillInstagram size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.tiktok.com/@food.fitness_">
+        <FaTiktok size="3rem" />
+      </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
 

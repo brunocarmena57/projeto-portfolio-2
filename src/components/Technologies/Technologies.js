@@ -1,30 +1,19 @@
 import React from "react";
 import { Section, SectionDivider, SectionText, SectionTitle, } from "../../styles/GlobalComponents";
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, } from "./TechnologiesStyles";
-import { Skills } from './Skills'
 
 const Technologies = () => (
   <Section id="skills">
     <SectionDivider divider />
-    <SectionTitle>Skills</SectionTitle>
+    <SectionTitle>Sobre nós</SectionTitle>
     <SectionText>
-    I have extensive experience working with a variety of technologies as a developer. I've developed and maintained multiple projects using these technologies, and I'm always eager to learn more.
+    Nossa equipe é composta por pessoas dedicadas que possuem uma riqueza de conhecimento e experiência no mundo do marketing digital e dos negócios. Juntos, estamos empenhados em fornecer a você os recursos, as ferramentas e a orientação de que você precisa para se destacar.
     </SectionText>
-    <List>
-      {Skills.map((Skill) => (
-        <ListItem key={Skill.slug}>
-          <picture>
-            <Skill.Component size="3rem" />
-          </picture>
-          <ListContainer>
-            <ListTitle>{Skill.title}</ListTitle>
-            <ListParagraph>
-              <Skill.Description />
-            </ListParagraph>
-          </ListContainer>
-        </ListItem>
-      ))}
-    </List>
+    <SectionText>
+    Acreditamos que a transparência, a inovação e a colaboração são fundamentais para o nosso sucesso e para o seu. Acreditamos em compartilhar conhecimento e empoderar a comunidade de empreendedores, permitindo que você alcance suas metas e crie um impacto duradouro.
+    
+    </SectionText>
+    
     <SectionDivider colorAlt />
   </Section>
 );

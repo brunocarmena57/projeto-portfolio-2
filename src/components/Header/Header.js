@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { FaTiktok } from 'react-icons/fa'
 
 const Header = () => (
   <Container>
@@ -10,44 +11,29 @@ const Header = () => (
         href="/"
         style={{ display: 'flex', alignItems: 'center', color: "white" }}>
 
-        <img src="/logo.svg" height={40} width={40} /> <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >Vipul Jha</span>
+        <img src="../images/logo.png" height={35} width={40} /> <span style={{ marginLeft: 15, marginTop: 7, fontSize: 20 }} >Marketing Brother's</span>
 
       </Link>
     </Div1>
     <Div2>
       <li>
         <Link href="#projects" legacyBehavior>
-          <NavLink>Projects</NavLink>
+          <NavLink>Cursos</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#skills" legacyBehavior>
-          <NavLink>Skills</NavLink>
+          <NavLink>Sobre Nós</NavLink>
         </Link>
       </li>
-      <li>
-        <Link href="#about" legacyBehavior>
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
-      <li>
-        <a href="https://blog.vipuljha.com">
-          <NavLink>Blog</NavLink>
-        </a>
-      </li>
+      
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/lordarcadius">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/lordarcadius">
+      <SocialIcons href="https://www.instagram.com/marketingbrothers__/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.twitter.com/lordarcadius">
-        <AiFillTwitterCircle size="3rem" />
+      <SocialIcons href="https://www.tiktok.com/@food.fitness_">
+        <FaTiktok size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
