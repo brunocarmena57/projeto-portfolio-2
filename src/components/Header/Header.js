@@ -32,7 +32,7 @@ const Header = () => (
       <SocialIcons href="https://www.instagram.com/marketingbrothers__/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.tiktok.com/@food.fitness_">
+      <SocialIcons href="http://www.tiktok.com/@marketingbrothers_">
         <FaTiktok size="3rem" />
       </SocialIcons>
     </Div3>

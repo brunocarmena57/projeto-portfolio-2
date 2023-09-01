@@ -13,24 +13,24 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://wa.me/41997875005">WhatsApp</LinkItem>
+          <LinkItem href="http://wa.me/5541997587685">WhatsApp</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:marketingbrothers__@gmail.com">
-            marketingbrothers__@gmail.com
+          <LinkItem href="mailto:marketingbrothers418@gmail.com">
+          marketingbrothers418@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Copyright &copy; {year} <Link href="https://www.instagram.com/bruno.carmena57/">  Bruno Carmena</Link>. All rights reserved.</Slogan>
+          <Slogan>Copyright &copy; {year} <Link href="https://www.instagram.com/marketingbrothers__/">Marketing Brothers</Link>. All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href="https://www.instagram.com/marketingbrothers__/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.tiktok.com/@food.fitness_">
+      <SocialIcons href="http://www.tiktok.com/@marketingbrothers_">
         <FaTiktok size="3rem" />
       </SocialIcons>
         </SocialContainer>
